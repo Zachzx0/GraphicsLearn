@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scene/CreateObjByObjFile.unity
+  isLoaded: 1
+  isActive: 1
