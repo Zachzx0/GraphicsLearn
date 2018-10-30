@@ -181,7 +181,7 @@ public class CreateSphere : MonoBehaviour {
             float y = ratio * (deltaUv2.y * edg1.y - deltaUv1.y * edg2.y);
             float z = ratio * (deltaUv2.y * edg1.z - deltaUv1.y * edg2.z);
 
-            Vector4 tangent = Vector4.Normalize(new Vector4(x, y, z, 0));
+            Vector4 tangent = Vector4.Normalize(new Vector4(x, y, z, 1));
             var vertTran = vertTans.Find((item) =>
             {
                 return item.index == _trianglesList[i];
